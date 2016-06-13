@@ -2,7 +2,12 @@
 
 Internet radio built around ES9023 I2S 24 Bit / 192 KHZ Decoder and Raspi 3
 
+
 * Pinouts
+  #+CAPTION: DAC Board
+  #+NAME:   fig:dac-board
+  [[./pics/board.jpg]]
+
 ** I2S link line
 | Orange Line | MCLK |
 | Yellow line | GND  |
@@ -13,6 +18,7 @@ Internet radio built around ES9023 I2S 24 Bit / 192 KHZ Decoder and Raspi 3
 ** 5V power input
 | Black line | GND |
 | Red line   | +5V |
+
 
 * Notes
  HW is similar to the Audiophonics DAC Sabre Drivers: the snd_soc_hifiberry_dac driver works  (it
