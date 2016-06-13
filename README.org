@@ -2,14 +2,15 @@
 
 Internet radio built around ES9023 I2S 24 Bit / 192 KHZ Decoder and Raspi 3
 
-I2S link line
+* Pinouts
+** I2S link line
 | Orange Line | MCLK |
 | Yellow line | GND  |
 | White line  | DATA |
 | Red line    | LRCK |
 | Black line  | BCK  |
  
-5V power input
+** 5V power input
 | Black line | GND |
 | Red line   | +5V |
 
