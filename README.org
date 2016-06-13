@@ -9,15 +9,19 @@ Internet radio built around ES9023 I2S 24 Bit / 192 KHZ Decoder and Raspi 3
 [[./pics/board.jpg]]
 
 ** I2S link line
-| Orange Line | MCLK |
-| Yellow line | GND  |
-| White line  | DATA |
-| Red line    | LRCK |
-| Black line  | BCK  |
+| DAC         | DAC Name |   Pi Pin |
+|-------------+----------+----------|
+| Orange Line | MCLK     | 34 (gnd) |
+| Yellow line | GND      |       39 |
+| White line  | DATA     |       40 |
+| Red line    | LRCK     |       35 |
+| Black line  | BCK      |       12 |
  
 ** 5V power input
-| Black line | GND |
-| Red line   | +5V |
+| DAC        | DAC Name | Pi Pin |
+|------------+----------+--------|
+| Black line | GND      |  6     |
+| Red line   | +5V      |  2    |
 
 
 * Notes
@@ -29,4 +33,5 @@ Internet radio built around ES9023 I2S 24 Bit / 192 KHZ Decoder and Raspi 3
 
 * Links
 - http://www.banggood.com/ES9023-I2S-24-Bit-192-KHZ-Decoder-Board-For-Raspberry-PI-p-1012053.html
+- http://www.runeaudio.com/forum/audiophonics-dac-sabre-es9023-i2s-24bit-192-raspberry-pi-t1155.html#p6744
 
