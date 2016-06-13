@@ -9,19 +9,19 @@ Internet radio built around ES9023 I2S 24 Bit / 192 KHZ Decoder and Raspi 3
 [[./pics/board.jpg]]
 
 ** I2S link line
-| DAC         | DAC Name |   Pi Pin |
-|-------------+----------+----------|
-| Orange Line | MCLK     | 34 (gnd) |
-| Yellow line | GND      |       39 |
-| White line  | DATA     |       40 |
-| Red line    | LRCK     |       35 |
-| Black line  | BCK      |       12 |
+| DAC         | DAC Name |                 Pi Pin |
+|-------------+----------+------------------------|
+| Orange Line | MCLK     | 34 (gnd) Don't connect |
+| Yellow line | GND      |                     39 |
+| White line  | DATA     |                     40 |
+| Red line    | LRCK     |                     35 |
+| Black line  | BCK      |                     12 |
  
 ** 5V power input
 | DAC        | DAC Name | Pi Pin |
 |------------+----------+--------|
-| Black line | GND      |  6     |
-| Red line   | +5V      |  2    |
+| Black line | GND      |      6 |
+| Red line   | +5V      |      2 |
 
 
 * Notes
