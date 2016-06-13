@@ -1,0 +1,25 @@
+ #+TITLE: iradio 
+
+Internet radio built around ES9023 I2S 24 Bit / 192 KHZ Decoder and Raspi 3
+
+I2S link line
+| Orange Line | MCLK |
+| Yellow line | GND  |
+| White line  | DATA |
+| Red line    | LRCK |
+| Black line  | BCK  |
+ 
+5V power input
+| Black line | GND |
+| Red line   | +5V |
+
+* Notes
+ HW is similar to the Audiophonics DAC Sabre Drivers: the snd_soc_hifiberry_dac driver works  (it
+ chain-loads snd_soc_pcm5102a driver). For newer Linux-distros (Archlinux with Kernel > 4.4) use
+ "device_tree_param=i2s=on" and "dtoverlay=hifiberry-dac" in config.txt
+
+
+
+* Links
+- http://www.banggood.com/ES9023-I2S-24-Bit-192-KHZ-Decoder-Board-For-Raspberry-PI-p-1012053.html
+
